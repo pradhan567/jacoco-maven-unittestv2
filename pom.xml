@@ -23,7 +23,7 @@
     <plugin>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.7.8</version>
+      <version>0.8.3</version>
       <executions>
         <execution>
           <id>pre-unit-test</id>
@@ -42,20 +42,4 @@
     </plugin>
   </plugins>
  </build>
-  
-  <distributionManagement>
-	<repository>
-		<id>deployment</id>
-		<name>Internal Releases</name>
-		<url>http://35.154.238.151:8081/repository/maven-releases/</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>deployment</id>
-		<name>Internal Releases</name>
-		<url>http://35.154.238.151:8081/repository/maven-snapshots/</url>
-	</snapshotRepository>
-
-</distributionManagement>
-  
-</project>
+ </project>
